@@ -111,8 +111,8 @@ async def next_page(bot, query):
     )
     btn.insert(1, 
         [
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+eSQ6O3Rf4tdhMDY1'),
-            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ', url='https://t.me/Theprofffesorr')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movies4udiscussion2'),
+            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ', url='https://t.me/Movies4u_team')
         ]
     )
    
@@ -440,10 +440,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇs 🤖', url='https://t.me/Theprofffesorr'),
-            InlineKeyboardButton('💥 ᴍᴏᴠɪᴇs ♥️', url='https://t.me/+eSQ6O3Rf4tdhMDY1')
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇs 🤖', url='https://t.me/Movies4u_team'),
+            InlineKeyboardButton('💥 ᴍᴏᴠɪᴇs ♥️', url='https://t.me/movies4udiscussion2')
             ],[
-            InlineKeyboardButton('💞 sᴜᴘᴘᴏʀᴛ 💞', url='https://t.me/Theprofffesorr'),
+            InlineKeyboardButton('💞 sᴜᴘᴘᴏʀᴛ 💞', url='https://t.me/Movies4u_team'),
             InlineKeyboardButton('👩‍💻 ʀᴇᴘᴏ ✨', url='https://github.com/theprofffesorr2/AwesomeFilterPro'),
             ],[
             InlineKeyboardButton('👋 ᴇxᴛʀᴀ ʙᴜᴛᴛᴏɴs 👋', callback_data='about'),
@@ -476,8 +476,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🙄 ᴏᴡɴᴇʀ 🙄', url='https://t.me/Theprofffesorr'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇs 🤖', url='https://t.me/Theprofffesorr'),
+            InlineKeyboardButton('🙄 ᴏᴡɴᴇʀ 🙄', url='https://t.me/Movies4u_team'),
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇs 🤖', url='https://t.me/Movies4u_team'),
         ],[
             InlineKeyboardButton('👩‍💻 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 👩‍💻', url='https://github.com/theprofffesorr2/AwesomeFilterPro'), #Please Change your bot username
             InlineKeyboardButton('😍 sʜᴀʀᴇ ᴍᴇ 😍', url=f'https://t.me/share/url?url=t.me/{temp.U_NAME}'),
